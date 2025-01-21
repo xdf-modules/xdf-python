@@ -62,6 +62,7 @@ class MockStreamData:
         self.clock_times = clock_times
         self.clock_values = clock_values
         self.segments = []
+        self.clock_segments = []
 
 
 def test_mock_stream_default_timeseries_num():
